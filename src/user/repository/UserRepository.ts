@@ -1,4 +1,3 @@
-import { InferInsertModel, InferSelectModel } from "drizzle-orm";
 import { usersTable } from "../../db/schema/userSchema";
 import { IUserRepository } from "./interfaces/IUserRepository";
 import { db } from "../../db/database";

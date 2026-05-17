@@ -1,6 +1,6 @@
-import { IUserRepository } from "../repository/interfaces/IUserRepository";
-import { NewUser, User } from "../types/userTypes";
+import { IUserRepository } from "./IUserRepository";
 import bcrypt from 'bcrypt'
+import { NewUser, User } from "./types/userTypes";
 
 export class UserService {
     constructor(private readonly userRepository: IUserRepository) {}
